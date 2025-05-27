@@ -55,7 +55,7 @@
   width: 100%;
 }
 
-.small-image {
+.main__article-selection-wrap--small {
   width: 32%;
 }
 
@@ -153,13 +153,13 @@
     width: 100%;
   }
 
-  .small-image {
+  .main__article-selection-wrap--small {
     width: 49%;
   }
 }
 
 @media screen and (max-width: 452px) {
-  .small-image {
+  .main__article-selection-wrap--small {
     width: 100%;
   }
 
@@ -191,11 +191,28 @@
     border: 2px solid #DEDEDE;
   }
 
-  .small-image {
+  .main__article-selection-wrap--small {
     width: 100%;
   }
 
   .main__article-selection-wrap:nth-child(n+5) {
     display: none;
   }
+}
+
+/* Focus стили для элементов главной страницы */
+.main__section-menu-item a:focus {
+  outline: 2px solid #03B2A5;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.main__article-selection-wrap:focus {
+  outline: 2px solid #03B2A5;
+  outline-offset: 2px;
+}
+
+.main__article-selection-wrap a:focus {
+  outline: 2px solid #03B2A5;
+  outline-offset: 2px;
 } 

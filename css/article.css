@@ -192,11 +192,11 @@ li::marker {
   line-height: 24px;
 }
 
-.background-orange {
+.article__article-exercise--orange {
   background-color:#FFF3EB;
 }
 
-.background-blue {
+.article__article-exercise--blue {
   background-color: rgba(3, 178, 165, 0.10);
 }
 
@@ -732,4 +732,29 @@ li::marker {
     gap: 16px;
     margin-bottom: 16px;
   }
+}
+
+/* Focus стили для элементов статьи */
+.sidebar__button:focus {
+  outline: 2px solid #03B2A5;
+  outline-offset: 2px;
+}
+
+.closing-section__button:focus {
+  outline: 2px solid #03B2A5;
+  outline-offset: 2px;
+}
+
+/* Focus стили для ссылок в содержании */
+.article__contents-item a:focus {
+  outline: 2px solid #03B2A5;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Focus стили для ссылок статьи */
+.article__article-links-list a:focus {
+  outline: 2px solid #03B2A5;
+  outline-offset: 2px;
+  border-radius: 2px;
 } 
