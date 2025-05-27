@@ -1,0 +1,6 @@
+/* Основной файл стилей, импортирующий все остальные */
+
+@import url('reset.css');
+@import url('common.css');
+@import url('index.css');
+@import url('article.css'); 
